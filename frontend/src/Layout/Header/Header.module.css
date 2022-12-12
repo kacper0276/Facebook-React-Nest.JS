@@ -1,0 +1,13 @@
+.header {
+  background: var(--main-Color);
+  color: var(--color-Text);
+  width: 100%;
+  height: 10vh;
+  position: sticky;
+}
+
+@media only screen and (max-width: 1000px) {
+  .header {
+    height: calc(10vh + 100px);
+  }
+}

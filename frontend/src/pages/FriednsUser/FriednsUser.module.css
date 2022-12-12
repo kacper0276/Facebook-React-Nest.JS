@@ -1,0 +1,23 @@
+.main_div {
+  background: var(--main-Color);
+  width: 100%;
+  min-height: 85vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: var(--color-Text);
+}
+
+.form_search_friends {
+  width: 300px;
+  height: 400px;
+  box-sizing: border-box;
+  border: 1px solid #ffffff;
+  overflow-y: auto;
+}
+
+.form_search_friends > input[type="text"] {
+  width: 100%;
+  border-radius: 5px;
+}

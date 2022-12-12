@@ -1,0 +1,25 @@
+.main_page {
+  background: var(--main-Color);
+  width: 100%;
+  min-height: 85vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.shiny_text {
+  animation: shiny_text 5s infinite;
+  color: rgba(255, 255, 255, 0.3);
+}
+
+@keyframes shiny_text {
+  0% {
+    color: rgba(255, 255, 255, 1);
+  }
+  50% {
+    color: rgba(255, 255, 255, 0);
+  }
+  100% {
+    color: rgba(255, 255, 255, 1);
+  }
+}

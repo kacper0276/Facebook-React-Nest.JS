@@ -1,0 +1,65 @@
+.main_page {
+  background: var(--main-Color);
+  width: 100%;
+  min-height: 95vh;
+  color: var(--color-Text);
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.array {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.link_to_invited {
+  position: absolute;
+  top: 30%;
+  left: 0;
+  color: var(--color-Text);
+  font-size: 0.5em;
+}
+
+.link_to_invited:hover {
+  color: var(--color-Text);
+}
+
+.profile_template {
+  width: 70%;
+  height: 100%;
+  overflow-y: auto;
+  position: relative;
+  border: 1px solid white;
+  margin-top: 100px;
+}
+
+.username_in_template {
+  width: 100%;
+  padding: 15px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bolder;
+  font-size: xx-large;
+  background: yellowgreen;
+}
+
+.username_friends_list {
+  width: 100%;
+  height: 400px;
+  overflow-y: scroll;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.username_posts {
+  width: 100%;
+  min-height: 100px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
